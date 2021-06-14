@@ -11,8 +11,4 @@ public class HelloController {
         return "Hello Jenkins ！！！";
     }
 
-    @GetMapping("/no")
-    public String no(){
-        return "No Jenkins ！！！";
-    }
 }
