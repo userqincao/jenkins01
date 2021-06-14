@@ -11,4 +11,9 @@ public class HelloController {
         return "Hello Jenkins ！！！";
     }
 
+    @GetMapping("/ss")
+    public String ss(){
+        return "ss";
+    }
+
 }
